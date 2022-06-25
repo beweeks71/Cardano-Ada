@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap');
+* {box-sizing: border-box}
+img {vertical-align: middle}
+
+header {
+  width: 100%;
+  overflow:hidden;
+  display:inline-flex;
+  background-image: url("C://Users/bewee/OneDrive/Documents/Github/Cardano-Ada/orange.jpg");
+  }
+.mySlides {
+  display: none;
+}
+
+
+.headline {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+   top: 10%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size:38px;
+ 	letter-spacing:0.1em;
+   -webkit-text-fill-color: transparent;
+   -webkit-text-stroke-width: 3px;
+   -webkit-text-stroke-color: white;
+   text-shadow:
+ 						8px 8px blue,
+ 						20px 20px #000000;
+ }
+
+
+.headline2 {
+  font-family: sans-serif, Helvetica, Arial;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 600px;
+
+
+
+}
+
+header .tradingview-widget-copyright{
+  margin-left: 800px;
+
+
+  }
+
+
+#alien {
+  height: 150px;
+  width: 150px;
+  margin-left: 50px;
+  margin-right: 200px;
+
+}
+
+hr {
+  height: 20px;
+  background-color: white;
+}
+
+body {
+  background-color: black;
+
+}
+
+
+
+/* Slideshow container */
+.slideshowContainer {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  background-color: black;
+}
+
+/* Next & previous buttons */
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 75%;
+  width: 90px;
+  padding: 16px;
+  margin-top: 10px;
+  color: orange;
+  font-weight: bold;
+  font-size: 25px;
+  transition: 0.6s ease;
+  border-radius: 10px 10px 10px 10px;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  bottom: 0;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 465px;
+}
+
+.prev {
+  margin-left: 0px;
+
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+#log {
+  margin-bottom: 80px;
+  height: 300px;
+  width: 1000px;
+  position: absolute;
+  background: black;
+  font-size: 44px;
+  color: white;
+  display: inline-block;
+
+}
+
+#second {
+
+  margin-bottom: 80px;
+  height: 300px;
+  width: auto;
+  position: absolute;
+  background: black;
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+  text-align: last;
+  display: inline-block;
+}
+
+#third{
+
+  margin-bottom: 80px;
+  height: 300px;
+  width: auto;
+  position: absolute;
+  background: black;
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+  text-align: last;
+  display: inline-block;
+}
+#fourth{
+
+  margin-bottom: 80px;
+  height: 300px;
+  width: auto;
+  position: absolute;
+  background: black;
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+  text-align: last;
+  display: inline-block;
+}
+
+
+body .tradingview-widget-container {
+  width: auto;
+  background-color: black;
+
+
+}
+body ol {
+  margin-top: 0px;
+  padding-top: 0px;
+  height: 255px;
+  width: 150px;
+  background-color: black;
+  color: white;
+  position: relative;
+  display: inline-block;
+  list-style: none;
+  counter-reset: any-name;
+
+}
+
+body ol li {
+  font-size: 38px;
+  font-weight: bold;
+  margin-left: 63px;
+  margin-bottom: 0px;
+
+  counter-increment: any-name;
+}
+
+li:before{
+  content: counter(any-name);
+}
+
+li:before{
+  margin-right: 1.5rem;
+  background: blue;
+  border-radius: 50%;
+  color: white;
+  width: 3rem;
+  height: 3.2rem;
+  padding-top: 0.4rem;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.list24 {
+  height: 200px;
+  width: auto;
+  display: inline-block;
+  background-color: black;
+  margin-left: 420px;
+
+}
+.list7 {
+  height: 100px;
+  width: auto;
+  display: inline-block;
+  background-color: blue;
+  margin-left: 50px;
+
+}
+#listHead {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#sevenHead {
+position: relative;
+ top: 0%;
+ left: 54%;
+ transform: translate(-50%, -50%);
+ font-size:70px;
+ letter-spacing:0.1em;
+ -webkit-text-fill-color: orange;
+ -webkit-text-stroke-width: 3px;
+ -webkit-text-stroke-color: orange;
+ text-shadow:
+
+
+
+  color: orange;
+  text-align: center;
+
+}
+
+footer {
+
+  color: white;
+  background-image: url("C://Users/bewee/OneDrive/Documents/Github/Cardano-Ada/orange.jpg");
+  text-align: center;
+
+
+}
