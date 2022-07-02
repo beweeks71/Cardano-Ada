@@ -7,7 +7,7 @@ header {
   width: 100%;
   overflow:hidden;
   display:inline-flex;
-  background-image: url("C://Users/bewee/OneDrive/Documents/Github/Cardano-Ada/orange.jpg");
+  background-image: url(https://beweeks71.github.io/Cardano-Ada/orange.jpg);
   }
 .mySlides {
   display: none;
@@ -308,7 +308,7 @@ position: relative;
 footer {
 
   color: white;
-  background-image: url("C://Users/bewee/OneDrive/Documents/Github/Cardano-Ada/orange.jpg");
+  background-image: url(https://beweeks71.github.io/Cardano-Ada/orange.jpg);
   text-align: center;
 
 
