@@ -165,13 +165,16 @@ body {
 
 
 #log {
+  overflow: hidden;
   margin-bottom: 80px;
   height: 300px;
-  width: 1000px;
+  width: auto;
   position: absolute;
   background: black;
-  font-size: 44px;
+  font-size: 45px;
+  font-weight: bold;
   color: white;
+  text-align: last;
   display: inline-block;
 
 }
