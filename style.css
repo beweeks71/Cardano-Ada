@@ -268,7 +268,7 @@ li:before{
 }
 
 .list24 {
-  height: 200px;
+  height: 100px;
   width: auto;
   display: inline-block;
   background-color: black;
@@ -299,12 +299,8 @@ position: relative;
  -webkit-text-fill-color: orange;
  -webkit-text-stroke-width: 3px;
  -webkit-text-stroke-color: orange;
- text-shadow:
-
-
-
-  color: orange;
-  text-align: center;
+ color: orange;
+text-align: center;
 
 }
 
